@@ -1,6 +1,7 @@
 # Image Caption Generator
 
 colab notebook: https://colab.research.google.com/drive/1Wj6iXXIHhu_gS1qaHF9t9w6VmNlUwczu#scrollTo=YH6qeyddsgIi
+
 link to dataset used: https://www.kaggle.com/datasets/adityajn105/flickr8k/
 
 ## Overview
@@ -8,8 +9,6 @@ link to dataset used: https://www.kaggle.com/datasets/adityajn105/flickr8k/
 Generating image captions using deep learning. The images are taken from *Flickr8k* dataset from Kaggle. The system employs an encoder-decoder neural network architecture to generate descriptive captions for images.
 
 ## Neural Network Architecture
-
-Certainly! The neural network architecture used in the given code is an image captioning model that consists of an Encoder-Decoder architecture. Let's break down the components of the neural network:
 
 ### Encoder:
 The encoder is responsible for extracting meaningful features from input images. In this code, the encoder utilizes the pre-trained VGG16 (Visual Geometry Group 16-layer) model, which is a deep convolutional neural network (CNN) commonly used for image classification tasks.
